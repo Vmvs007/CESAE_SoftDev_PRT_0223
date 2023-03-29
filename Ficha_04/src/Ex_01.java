@@ -56,7 +56,7 @@ public class Ex_01 {
                     break;
             }
 
-            //Linhas importantes para ler se o utilizador quer novamente o menu
+            //Linhas importantes para ler se o utilizador quer executar novamente o programa
             System.out.println("\nDeseja continuar? (s/n): ");
             continuar=input.next();
 

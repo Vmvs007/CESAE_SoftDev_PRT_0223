@@ -10,7 +10,7 @@ public class Ex_01 {
 
         System.out.println("***** Ficha 5 - Exercicio 1 *****");
 
-        // Ciclo que vai iterar 10 vezes - Lê o numero inteiro para cada uma das 10 posições
+        // Ciclo que vai iterar 10 vezes - Lê o número inteiro para cada uma das 10 posições
         for(int i=0;i<10;i++){
             System.out.print("Introduza o numero no array["+i+"]: ");
             array[i]= input.nextInt();
