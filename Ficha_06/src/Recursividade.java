@@ -1,15 +1,22 @@
 import java.util.Scanner;
 
-//Escreva uma função que recebe um array de inteiros como parâmetro e retorna o maior valor do array.
-
 class Recursividade {
 
-    public static int [] criarPreencher(){
+    /**
+     * Função que permite criar e preencher um array de inteiros
+     * @return
+     */
+    public static int [] criarPreencherArray(){
 
-        return  insert(tamanho());
+        return  preencherArray(criarArray());
 
     }
-    public static int[] tamanho ( ) {
+
+    /**
+     * Função que cria um array de inteiros com o tamanho pretendido
+     * @return Array de inteiros com o tamanho pretendido
+     */
+    public static int[] criarArray( ) {
         Scanner input = new Scanner(System.in);
 
         int i, maior = 0,count;
@@ -21,7 +28,12 @@ class Recursividade {
         return array;
     }
 
-    public static int[] insert (int[] array){
+    /**
+     * Função que preenche um array de inteiros
+     * @param array - Recebe um array de inteiros
+     * @return Array de inteiros preenchido
+     */
+    public static int[] preencherArray (int[] array){
         Scanner input = new Scanner(System.in);
 
 
@@ -34,28 +46,22 @@ class Recursividade {
 
     }
 
-    public static void printArray (int[] array){
+    /**
+     * Função que imprime um array de inteiros
+     * @param array Array de inteiros a imprimir
+     */
+    public static void imprimirArray (int[] array){
         Scanner input = new Scanner(System.in);
-
 
         for  (int i=0; i< array.length; i++){
             System.out.print(array[i]);
         }
-
     }
+
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-
-        printArray(criarPreencher());
-
-
-
-
-
-
-
+        imprimirArray(criarPreencherArray());
     }
-
 }
