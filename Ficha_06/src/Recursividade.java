@@ -9,7 +9,6 @@ class Recursividade {
     public static int [] criarPreencherArray(){
 
         return  preencherArray(criarArray());
-
     }
 
     /**
@@ -19,7 +18,7 @@ class Recursividade {
     public static int[] criarArray( ) {
         Scanner input = new Scanner(System.in);
 
-        int i, maior = 0,count;
+        int count;
 
         System.out.print("Insira o tamanho do array: ");
         count = input.nextInt();
@@ -34,14 +33,13 @@ class Recursividade {
      * @return Array de inteiros preenchido
      */
     public static int[] preencherArray (int[] array){
-        Scanner input = new Scanner(System.in);
 
+        Scanner input = new Scanner(System.in);
 
         for  (int i=0; i< array.length; i++){
             System.out.print("Insira o numero do array, posição ["+i+"]: ");
             array[i]=input.nextInt();
         }
-
         return array;
 
     }
@@ -51,11 +49,11 @@ class Recursividade {
      * @param array Array de inteiros a imprimir
      */
     public static void imprimirArray (int[] array){
-        Scanner input = new Scanner(System.in);
 
         for  (int i=0; i< array.length; i++){
             System.out.print(array[i]);
         }
+
     }
 
 
