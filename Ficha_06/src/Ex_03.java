@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class Ex_03 {
 
     /**
-     *
+     * Função que verifica se um número é primo
      * @param num
-     * @return
+     * @return true se primo || false se não primo
      */
     public static boolean primo(int num){
 
-        // Declara as variáveis
+        // Declara as variáveis locais
         int divisor=2;
 
 

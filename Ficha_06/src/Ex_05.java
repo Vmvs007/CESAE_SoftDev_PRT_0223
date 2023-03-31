@@ -2,8 +2,14 @@ import java.util.Scanner;
 
 public class Ex_05 {
 
+    /**
+     * Função que verificar a paridade de um número
+     * @param num
+     * @return true se par || false se impar
+     */
     public static boolean par(int num){
 
+        // Verifica o resto da divisão inteira por 2
         if(num%2==0){
             return true;
         }else{
@@ -11,8 +17,14 @@ public class Ex_05 {
         }
     }
 
+    /**
+     * Função que verifica se um número é positivo
+     * @param num
+     * @return true se positivo || false se negativo
+     */
     public static boolean positivo(int num){
 
+        // Verifica se o número é igual ou superior a 0
         if(num>=0){
             return true;
         }else{
@@ -20,9 +32,14 @@ public class Ex_05 {
         }
     }
 
+    /**
+     * Função que verifica se um número é primo
+     * @param num
+     * @return true se primo || false se não primo
+     */
     public static boolean primo(int num){
 
-        // Declara as variáveis
+        // Declara as variáveis locais
         int divisor=2;
 
 
@@ -43,6 +60,7 @@ public class Ex_05 {
 
         return true;
     }
+
 
     public static void main(String[] args) {
 

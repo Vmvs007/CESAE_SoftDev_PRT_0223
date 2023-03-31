@@ -3,12 +3,13 @@ import java.util.Scanner;
 public class Ex_01 {
 
     /**
-     *
+     * Função que verificar a paridade de um número
      * @param num
-     * @return
+     * @return true se par || false se impar
      */
     public static boolean par(int num){
 
+        // Verifica o resto da divisão inteira por 2
         if(num%2==0){
             return true;
         }else{
@@ -21,7 +22,6 @@ public class Ex_01 {
         // Declarar variáveis
         int num;
 
-        // Declaro o Scanner
         Scanner input = new Scanner(System.in);
 
         System.out.println("***** Ficha 06 - Exercicio 1 *****");
@@ -30,7 +30,7 @@ public class Ex_01 {
         System.out.print("Introduza um número: ");
         num=input.nextInt();
 
-        // Invocar a função "par"
+        // Invocar a função "par" e imprime a paridade do número
         if(par(num)){
             System.out.println("É par");
         }else{

@@ -3,12 +3,13 @@ import java.util.Scanner;
 public class Ex_02 {
 
     /**
-     *
+     * Função que verifica se um número é positivo
      * @param num
-     * @return
+     * @return true se positivo || false se negativo
      */
     public static boolean positivo(int num){
 
+        // Verifica se o número é igual ou superior a 0
         if(num>=0){
             return true;
         }else{
