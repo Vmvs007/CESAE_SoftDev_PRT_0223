@@ -104,11 +104,11 @@ public class Ex_05 {
                     break;
 
                 case 2:
-                    System.out.println("Atualizar");
+
                     break;
 
                 case 3:
-                    System.out.println("Eliminar");
+
                     break;
 
                 case 4:
@@ -132,6 +132,6 @@ public class Ex_05 {
 
         System.out.println("***** Ficha 06 - Exercicio 5 *****");
 
-
+menu();
     }
 }
