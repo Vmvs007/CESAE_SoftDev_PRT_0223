@@ -31,5 +31,23 @@ public class Conta {
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
-    
+
+
+    public boolean transferencia (double valor, Conta contaDestino){
+
+        // Verificar se a conta remetente tem saldo suficiente
+        if(this.saldo>=valor){
+            // Subtraio ao saldo da conta remetente
+            this.saldo-=valor;
+            // Incremento ao saldo da conta destino
+            contaDestino.saldo+=valor;
+            // Mensagem de sucesso
+            System.out.println("Transferência Concluida");
+            return true;
+        }else{
+            // Mensagem de erro
+            System.out.println("Erro ao Transferir");
+            return false;
+        }
+    }
 }
