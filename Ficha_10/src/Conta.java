@@ -52,7 +52,7 @@ public class Conta {
 
 
     /**
-     * Método para transferir saldo de uma conta para a outra
+     * Método para <b>transferir saldo</b> de uma conta para a outra
      * @param valor Valor a transferir
      * @param contaDestino Conta que irá receber o valor
      * @return True se a operação foi executada | False se deu erro
