@@ -6,7 +6,15 @@ import poo_fp11.BikeStore.BicycleManagement;
 import java.util.ArrayList;
 
 public class BikeDemo {
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
+
+        // TODO
+// TODO Não esquecer de instanciar um objeto
 
         // Declarar o ArrayList com as ferramentas iniciais
         ArrayList<BikeTools> firstTools_Monte1 = new ArrayList<BikeTools>();
