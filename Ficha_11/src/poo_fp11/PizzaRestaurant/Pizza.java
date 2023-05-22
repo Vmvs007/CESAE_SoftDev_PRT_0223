@@ -47,7 +47,7 @@ public class Pizza {
      * @param newQuantity Quantidade a editar
      */
     public void setIngredientQuantity(int id, double newQuantity){
-
+this.ingredients.get(id).setQuantity(newQuantity);
     }
 
     /**
@@ -55,7 +55,26 @@ public class Pizza {
      * @param id Id do Ingrediente a remover
      */
     public void removeIngredient(int id){
-
+this.ingredients.remove(id);
     }
 
+    public void printPizza(){
+        int count=0;
+        System.out.println("Nome: "+ this.name);
+        for(PizzaIngredients ingredient : this.ingredients){
+            System.out.println("ID: "+count);
+            System.out.println("Ingrediente: " +ingredient.getIngredient().getName());
+            System.out.println("Quantidade: "+ingredient.getQuantity());
+            System.out.println("");
+            count++;
+        }
+    }
+
+    public double countKcal(){
+        int count=0;
+        for(PizzaIngredients ingredient : this.ingredients){
+           count+= ingredient.getQuantity()*ingredient.getIngredient().getCalories();
+        }
+        return count;
+    }
 }
