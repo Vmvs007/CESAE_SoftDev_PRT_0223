@@ -1,6 +1,4 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
+import java.io.*;
 
 public class Logger {
 
@@ -34,10 +32,11 @@ private static Logger instance;
      * @param log_line
      * @throws FileNotFoundException
      */
-    public void log(String log_line) throws FileNotFoundException {
-        PrintWriter log_writer = new PrintWriter(this.file);
+    public void writeToFile(String content) throws IOException {
+        FileWriter writer = new FileWriter(this.file, true); // O segundo parâmetro "true" indica que iremos fazer uma escrita incremental no arquivo.
 
-        log_writer.println(log_line);
-        log_writer.close();
+        writer.write(content+"\n"); // Escreve o conteúdo no arquivo.
+
+        writer.close(); // Fecha o escritor.
     }
 }
