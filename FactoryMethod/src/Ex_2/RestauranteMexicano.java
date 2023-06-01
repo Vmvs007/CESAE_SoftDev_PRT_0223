@@ -11,7 +11,7 @@ public class RestauranteMexicano {
         // Declarar Variáveis
         String escolha;
 
-        System.out.println("Qual o tipo de taco (Carne Vaca, Carne Frango, Vegetariano): ");
+        System.out.println("Qual o tipo de taco (Carne Vaca, Carne Frango, Vegetariano, Pimentos): ");
         escolha= input.nextLine();
 
         Taco tacoUser = TacoFactory.createTaco(escolha.toUpperCase());
@@ -19,6 +19,6 @@ public class RestauranteMexicano {
         tacoUser.prepare();
         tacoUser.bake();
         tacoUser.box();
-
+         tacoUser.eat();
     }
 }
