@@ -1,1 +1,4 @@
+Mensagem de log 1
 Mensagem de log 100
+Mensagem de log 2
+Mensagem de log 200

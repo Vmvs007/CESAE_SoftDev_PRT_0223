@@ -1,3 +1,5 @@
+package Ex_1;
+
 import java.io.*;
 
 public class Logger {
