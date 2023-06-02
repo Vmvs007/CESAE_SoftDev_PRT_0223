@@ -20,4 +20,5 @@ public class Cao extends Animal implements Terrestre,Agilidade{
         System.out.println("Cão a saltar!");
 
     }
+
 }
