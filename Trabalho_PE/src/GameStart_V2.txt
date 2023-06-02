@@ -1,0 +1,101 @@
+idVenda,idCliente,nomeCliente,contacto,email,editora,categoria,jogo,valor
+V00-001,1,Vitor Santos,910000001,vitor.santos@gmail.com,CD Projekt Red,RPG,The Witcher III: Wild Hunt,39.99
+V00-002,1,Vitor Santos,910000001,vitor.santos@gmail.com,Team Cherry,Metroidvania,Hollow Knight,19.99
+V00-003,2,Luis Camoes,910000002,lusiadas@gmail.com,Xbox Game Studios,Estrategia,Age of Empires IV,35.99
+V00-004,3,Quim Barreiros,910000003,mestre.culinaria@gmail.com,Sony,Festa,Sing Star,9.90
+V00-005,4,Vasco da Gama,910000004,around.the.world@gmail.com,Xbox Game Studios,MMORPG,Sea of Thieves,15.90
+V00-006,5,Cristiano Ronaldo,910000005,cr7@gmail.com,EA,Desporto,FIFA 21,29.90
+V00-007,5,Cristiano Ronaldo,910000005,cr7@gmail.com,EA,Desporto,FIFA 22,39.90
+V00-008,5,Cristiano Ronaldo,910000005,cr7@gmail.com,EA,Desporto,FIFA 23,69.90
+V00-009,6,Connor McGregor,910000006,notorious@gmail.com,EA,Desporto,UFC 23,69.90
+V00-010,6,Connor McGregor,910000006,notorious@gmail.com,CAPCOM,Luta,Street Fighter VI,55.90
+V00-011,6,Connor McGregor,910000006,notorious@gmail.com,Bandai Namco,Luta,Tekken 7,69.90
+V00-012,7,James Bond,910000007,007@mi6.com,IO Interactive,Tiros,Hitman,52.90
+V00-013,8,Ana Santos,910000008,ana.santos@gmail.com,Activision,Tiros,Call of Duty: Modern Warfare II,69.90
+V00-014,8,Ana Santos,910000008,ana.santos@gmail.com,Team17,Festa,Overcooked 2,5.75
+V00-015,9,J. R. R. Tolkien,910000009,lord.of.the.rings@myprecious.com,Bandai Namco,RPG,Elden Ring,69.90
+V00-016,9,J. R. R. Tolkien,910000009,lord.of.the.rings@myprecious.com,FromSoftware,RPG,Dark Souls III,24.90
+V00-017,10,Lewis Hamilton,910000010,2fast2u@mercedes.com,EA,Corridas,F1 22,19.90
+V00-018,10,Lewis Hamilton,910000010,2fast2u@mercedes.com,Polyphony Digital,Corridas,Gran Turismo 7,59.90
+V00-019,10,Lewis Hamilton,910000010,2fast2u@mercedes.com,EA,Corridas,Need for Speed Heat,34.50
+V00-020,11,Max Verstappen,910000011,gives.u.wings@redbull.com,Xbox Game Studios,Corridas,Forza Horizon 5,69.99
+V00-021,11,Max Verstappen,910000011,gives.u.wings@redbull.com,Polyphony Digital,Corridas,Gran Turismo 7,59.90
+V00-022,12,Mike Tyson,910000012,iron.mike@gmail.com,EA,Desporto,UFC 23,69.90
+V00-023,12,Mike Tyson,910000012,iron.mike@gmail.com,CAPCOM,Luta,Street Fighter VI,55.90
+V00-024,12,Mike Tyson,910000012,iron.mike@gmail.com,NetherRealm,Luta,Mortal Kombat 11,49.99
+V00-025,9,J. R. R. Tolkien,910000009,lord.of.the.rings@myprecious.com,CD Projekt Red,RPG,The Witcher III: Wild Hunt,39.99
+V00-026,13,Freddie Mercury,910000013,bohemian.rapsody@gmail.com,Sony,Festa,Sing Star,9.90
+V00-027,14,Elon Musk,910000014,elon.musk@tesla.com,Bandai Namco,RPG,Elden Ring,69.90
+V00-028,14,Elon Musk,910000014,elon.musk@tesla.com,Ubisoft,Festa,Monopoly Plus,2.50
+V00-029,1,Vitor Santos,910000001,vitor.santos@gmail.com,Ubisoft,Aventura,Far Cry 6,59.90
+V00-030,15,Dwayne Johnson,910000015,the.rock@gmail.com,Santa Monica,Aventura,God of War,59.90
+V00-031,16,Afonso Henriques,910000016,rei.disto.tudo@mail.pt,Xbox Game Studios,Estrategia,Age of Empires IV,35.99
+V00-032,17,Manuel Costa,910000017,tio.manel@gmail.com,Giants,Simulador,Farming Simulator 22,31.25
+V00-033,17,Manuel Costa,910000017,tio.manel@gmail.com,Coffee Stain,Simulador,Goat Simulator 3,19.99
+V00-034,1,Vitor Santos,910000001,vitor.santos@gmail.com,Annapuma,Aventura,Stray,29.99
+V00-035,18,Dwayne Johnson,910000015,the.rock@gmail.com,Naughty Dog,Aventura,The Last of Us,49.90
+V00-036,19,Sir Francis Drake,910000019,treasure.hunter@gmail.com,Naughty Dog,Aventura,Uncharted 4,59.50
+V00-037,20,Ragnar Lothbrok,910000020,viking@gmail.com,Ubisoft,Aventura,Assassins Creed Valhalla,69.90
+V00-038,21,Fernando Pessoa,910000021,alvaro.de.campos@gmail.com,Nintendo,Arcada,Super Mario Bros,1.99
+V00-039,22,Amalia Rodrigues,910000022,fado@gmail.com,Rockstar,RPG,GTA V,29.90
+V00-040,23,Clint Eastwood,910000023,western@gmail.com,Rockstar,RPG,Red Dead Redemption 2,69.90
+V00-041,24,Chuck Norris,910000024,indestructible@gmail.com,Valve,Tiros,Half-Life 2,12.20
+V00-042,25,Albert Einstein,910000025,mc2@gmail.com,Valve,Puzzle,Portal 2,9.99
+V00-043,26,Vin Diesel,910000026,fast.furious@gmail.com,EA,Corridas,Need for Speed Heat,34.50
+V00-044,24,Chuck Norris,910000024,indestructible@gmail.com,Rockstar,RPG,Red Dead Redemption 2,69.90
+V00-045,9,J. R. R. Tolkien,910000009,lord.of.the.rings@myprecious.com,Beteshda,RPG,Skyrim,9.99
+V00-046,1,Vitor Santos,910000001,vitor.santos@gmail.com,Beteshda,RPG,Skyrim,9.99
+V00-047,27,Siza Vieira,910000027,arquitetura@gmail.com,Xbox Game Studios,Simulador,Minecraft,15.90
+V00-048,27,Siza Vieira,910000027,arquitetura@gmail.com,Paradox,Simulador,Prison Architect,12.20
+V00-049,28,Bill Gates,910000028,billie@microsoft.com,Blizzard,MMORPG,World of Warcraft,2.00
+V00-050,28,Bill Gates,910000028,billie@microsoft.com,Riot,MMORPG,League of Legends,2.00
+V00-051,29,Neymar Junior,910000029,neymar@gmail.com,EA,Desporto,FIFA 23,69.90
+V00-052,30,Robert Downey Jr.,910000030,ironman@gmail.com,Sega,Aventura,Iron Man,3.95
+V00-053,30,Robert Downey Jr.,910000030,ironman@gmail.com,Ubisoft,Festa,Monopoly Plus,2.50
+V00-054,28,Bill Gates,910000028,billie@microsoft.com,Ubisoft,Festa,Monopoly Plus,2.50
+V00-055,31,Tiger Woods,910000031,golf.cart.driver@gmail.com,2K,Desporto,PGA Tour 2K21,59.99
+V00-056,32,Mark Zuckerberg,910000032,not.a.lizard@facebook.com,Ubisoft,Festa,Monopoly Plus,2.50
+V00-057,33,Michael Jackson,910000033,eeh.eeh@gmail.com,Sony,Festa,Sing Star,9.90
+V00-058,34,Julius Ceasar,910000034,rome.is.mine@gmail.com,Xbox Game Studios,Estrategia,Age of Empires IV,35.99
+V00-059,34,Julius Ceasar,910000034,rome.is.mine@gmail.com,Firaxis,Estrategia,Civilization VI,59.99
+V00-060,34,Julius Ceasar,910000034,rome.is.mine@gmail.com,Paradox,Estrategia,Crusader Kings III,49.99
+V00-061,16,Afonso Henriques,910000016,rei.disto.tudo@mail.pt,Firaxis,Estrategia,Civilization VI,59.99
+V00-062,16,Afonso Henriques,910000016,rei.disto.tudo@mail.pt,Paradox,Estrategia,Crusader Kings III,49.99
+V00-063,34,Julius Ceasar,910000034,rome.is.mine@gmail.com,Xbox Game Studios,Estrategia,Age of Mythology,34.90
+V00-064,35,John Lennon,910000035,imagine@gmail.com,Sony,Festa,Sing Star,9.90
+V00-065,36,J. K. Rowling,910000036,harry.potter@gmail.com,Avalanche,RPG,Hogwarts Legacy,69.90
+V00-066,37,Joaquim Alberto,910000037,sirene.bombeiros@gmail.com,Astragon,Simulador,Firefighting Simulator,15.50
+V00-067,37,Joaquim Alberto,910000037,sirene.bombeiros@gmail.com,Big Cheese,Simulador,Cooking Simulator,19.99
+V00-068,38,Gordon Ramsay,910000038,hells.kitchen@fword.com,Team17,Festa,Overcooked 2,5.75
+V00-069,38,Gordon Ramsay,910000038,hells.kitchen@fword.com,Big Cheese,Simulador,Cooking Simulator,19.99
+V00-070,39,Ricardo Fazeres,910000039,riczao@gmail.com,Big Cheese,Simulador,Cooking Simulator,19.99
+V00-071,39,Ricardo Fazeres,910000039,riczao@gmail.com,EA,Corridas,Need for Speed Heat,34.50
+V00-072,39,Ricardo Fazeres,910000039,riczao@gmail.com,Naughty Dog,Aventura,The Last of Us,49.90
+V00-073,39,Ricardo Fazeres,910000039,riczao@gmail.com,Santa Monica,Aventura,God of War,59.90
+V00-074,28,Bill Gates,910000028,billie@microsoft.com,EA,Simulador,Sims 4 Digital Deluxe,215.90
+V00-075,14,Elon Musk,910000014,elon.musk@tesla.com,EA,Simulador,Sims 4 Digital Deluxe,215.90
+V00-076,18,Dwayne Johnson,910000015,the.rock@gmail.com,Activision,Tiros,Call of Duty: Modern Warfare II,69.90
+V00-077,18,Dwayne Johnson,910000015,the.rock@gmail.com,Activision,Tiros,Call of Duty: Black Ops III,49.50
+V00-078,7,James Bond,910000007,007@mi6.com,Activision,Tiros,Call of Duty: Modern Warfare II,69.90
+V00-079,7,James Bond,910000007,007@mi6.com,Activision,Tiros,Call of Duty: Black Ops III,49.50
+V00-080,40,Ed Sheeran,910000040,shape.of.you@gmail.com,Sony,Festa,Sing Star,9.90
+V00-081,41,Bruno Mars,910000041,lazy@gmail.com,Sony,Festa,Sing Star,9.90
+V00-082,41,Bruno Mars,910000041,lazy@gmail.com,Haemimont,Simulador,Surviving Mars,29.99
+V00-083,14,Elon Musk,910000014,elon.musk@tesla.com,Haemimont,Simulador,Surviving Mars,29.99
+V00-084,14,Elon Musk,910000014,elon.musk@tesla.com,Nintendo,Arcada,Super Mario Bros,1.99
+V00-085,35,John Lennon,910000035,imagine@gmail.com,Nintendo,Arcada,Super Mario Bros,1.99
+V00-086,30,Robert Downey Jr.,910000030,ironman@gmail.com,Nintendo,Arcada,Super Mario Bros,1.99
+V00-087,42,Anderson Silva,910000040,the.spider@gmail.com,CAPCOM,Luta,Street Fighter VI,55.90
+V00-088,43,Muhammad Ali,910000041,the.greatest@gmail.com,CAPCOM,Luta,Street Fighter VI,55.90
+V00-089,43,Muhammad Ali,910000041,the.greatest@gmail.com,Bandai Namco,Luta,Tekken 7,69.90
+V00-090,1,Vitor Santos,910000001,vitor.santos@gmail.com,Beteshda,RPG,Fallout 4,49.99
+V00-091,39,Ricardo Fazeres,910000039,riczao@gmail.com,Beteshda,RPG,Fallout 4,49.99
+V00-092,1,Vitor Santos,910000001,vitor.santos@gmail.com,Avalanche,RPG,Hogwarts Legacy,69.90
+V00-093,37,Joaquim Alberto,910000037,sirene.bombeiros@gmail.com,Polyphony Digital,Corridas,Gran Turismo 7,59.90
+V00-094,44,Napoleao Bonaparte,910000044,tall.guy@gmail.com,Firaxis,Estrategia,Civilization VI,59.99
+V00-095,44,Napoleao Bonaparte,910000044,tall.guy@gmail.com,Xbox Game Studios,Estrategia,Age of Empires IV,35.99
+V00-096,44,Napoleao Bonaparte,910000044,tall.guy@gmail.com,Paradox,Estrategia,Crusader Kings III,49.99
+V00-097,45,William Shakespeare,910000045,romeu.julieta@gmail.com,Nintendo,Arcada,Super Mario Bros,1.99
+V00-098,45,William Shakespeare,910000045,romeu.julieta@gmail.com,CAPCOM,Terror,Outlast,12.25
+V00-099,22,Amalia Rodrigues,910000022,fado@gmail.com,CAPCOM,Terror,Outlast,12.25
+V00-100,1,Vitor Santos,910000001,vitor.santos@gmail.com,Valve,Puzzle,Portal 2,9.99
