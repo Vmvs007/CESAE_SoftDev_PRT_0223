@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CarroTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2023-06-09T15:57:10" hostname="VITORPC" time="0.029">
+  <properties/>
+  <testcase name="testCorridaCarroVencedorIdade()" classname="CarroTest" time="0.012"/>
+  <testcase name="testLigarCarroCom30AnosPotenciaAlta()" classname="CarroTest" time="0.002"/>
+  <testcase name="testCorridaCarroVencedorCilindrada()" classname="CarroTest" time="0.0"/>
+  <testcase name="testCorridaCarroPerdeIdade()" classname="CarroTest" time="0.0"/>
+  <testcase name="testGetIdade()" classname="CarroTest" time="0.0"/>
+  <testcase name="testLigarCarroMaisDe30AnosGasolina()" classname="CarroTest" time="0.0"/>
+  <testcase name="testLigarCarroCom30AnosPotenciaBaixa()" classname="CarroTest" time="0.001"/>
+  <testcase name="testCorridaCarroVencedorPotencia()" classname="CarroTest" time="0.001"/>
+  <testcase name="testLigarCarroCom30AnosPotenciaLimite()" classname="CarroTest" time="0.001"/>
+  <testcase name="testCorridaEmpate()" classname="CarroTest" time="0.001"/>
+  <testcase name="testCalcularConsumo()" classname="CarroTest" time="0.0"/>
+  <testcase name="testCorridaCarroPerdeCilindrada()" classname="CarroTest" time="0.0"/>
+  <testcase name="testCorridaCarroPerdePotencia()" classname="CarroTest" time="0.001"/>
+  <testcase name="testLigarCarroMenosDe30AnosPotenciaBaixa()" classname="CarroTest" time="0.0"/>
+  <testcase name="testLigarCarroMenosDe30AnosPotenciaAlta()" classname="CarroTest" time="0.0"/>
+  <testcase name="testLigarCarroMenosDe30AnosPotenciaLimite()" classname="CarroTest" time="0.0"/>
+  <testcase name="testLigarCarroMaisDe30AnosDiesel()" classname="CarroTest" time="0.001"/>
+  <system-out><![CDATA[VRUUMMMMMM
+Custa a pegar... O carro esta ligado!
+Vrum-vrum-vrum
+Vruummmmmmm
+VRUUMMMMMM
+Vruummmmmmm
+VRUUMMMMMM
+VRUUMMMMMM
+Deita um pouco de fumo... Custa a pegar... O carro esta ligado!
+Vrum-vrum-vrum
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
