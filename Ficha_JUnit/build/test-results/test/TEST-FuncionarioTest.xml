@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FuncionarioTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-06-09T13:31:16" hostname="VITORPC" time="0.052">
+  <properties/>
+  <testcase name="aumentarSalario0Test()" classname="FuncionarioTest" time="0.046"/>
+  <testcase name="aumentarSalarioTest()" classname="FuncionarioTest" time="0.0"/>
+  <testcase name="aumentarSalarioNegativoTest()" classname="FuncionarioTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
