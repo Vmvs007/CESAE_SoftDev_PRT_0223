@@ -14,6 +14,6 @@ public class Main {
         System.out.print("Segundo número: ");
         num2= input.nextInt();
 
-        System.out.println("Divisão: "+ calculator.divide(num1, num2)); }
+        System.out.println("Divisão: "+ calculator.divide(num1,num2)); }
 
 }
