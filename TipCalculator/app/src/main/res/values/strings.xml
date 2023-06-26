@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TipCalculator</string>
+    <string name="calcular_gorjeta">Calcular Gorjeta</string>
+    <string name="custo_servico">Custo do Serviço</string>
+    <string name="valor_gorjeta">Valor Gorjeta: %s</string>
+    <string name="label_percentagem">Gorjeta (%)</string>>
+</resources>

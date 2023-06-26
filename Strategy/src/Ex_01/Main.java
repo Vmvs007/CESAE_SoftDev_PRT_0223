@@ -70,5 +70,6 @@ public class Main {
         System.out.println("Encontras uma fera mágica...");
         estrategiaCombate(jogador);
         jogador.performAttack();
+
     }
 }
