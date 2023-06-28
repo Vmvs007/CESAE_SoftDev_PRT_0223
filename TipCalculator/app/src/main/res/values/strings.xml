@@ -4,4 +4,5 @@
     <string name="custo_servico">Custo do Serviço</string>
     <string name="valor_gorjeta">Valor Gorjeta: %s</string>
     <string name="label_percentagem">Gorjeta (%)</string>>
+    <string name="arredondar">Arredondar?</string>>
 </resources>
