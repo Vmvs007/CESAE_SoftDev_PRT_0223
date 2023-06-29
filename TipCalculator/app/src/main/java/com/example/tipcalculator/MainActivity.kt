@@ -15,12 +15,14 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
+import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
@@ -58,6 +60,11 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun TipTimeScreen(){
+
+    var roundUp by remember {
+        mutableStateOf(false)
+    }
+
     var valorIntroduzido by remember { mutableStateOf("0") }
     val valor = valorIntroduzido.toDoubleOrNull() ?: 0.0
 
@@ -65,7 +72,7 @@ fun TipTimeScreen(){
     var gorjetaIntroduzida  by remember { mutableStateOf("0") }
     val gorjetaPercentagem= gorjetaIntroduzida.toDoubleOrNull() ?: 0.0
 
-    val gorjeta = calcularGorjeta(valor,gorjetaPercentagem)
+    val gorjeta = calcularGorjeta(valor,gorjetaPercentagem, roundUp)
 
     Column(modifier = Modifier.padding(32.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         Text(stringResource(R.string.calcular_gorjeta))
@@ -87,20 +94,26 @@ fun TipTimeScreen(){
             value=gorjetaIntroduzida,
             onValueChange = {gorjetaIntroduzida=it})
 
+        Spacer(modifier = Modifier.height(24.dp))
+
+        ArredondarConta(roundUp = roundUp, onRoundUpChanged = {roundUp=it})
 
         Spacer(modifier = Modifier.height(24.dp))
+
         Text(text = stringResource(id = R.string.valor_gorjeta,gorjeta),
             modifier = Modifier.align(Alignment.CenterHorizontally),
             fontSize = 20.sp,
             fontWeight = FontWeight.Bold
             )
+
+
     }
 
 }
 
 
 @Composable
-fun ArredondarConta(modifier: Modifier = Modifier){
+fun ArredondarConta(roundUp:Boolean, onRoundUpChanged: (Boolean)-> Unit, modifier: Modifier = Modifier){
     Row(
         modifier = modifier
             .fillMaxWidth()
@@ -109,9 +122,14 @@ fun ArredondarConta(modifier: Modifier = Modifier){
     ) {
         Text(text = stringResource(R.string.arredondar))
         Switch(
+            modifier = modifier
+                .fillMaxWidth()
+                .wrapContentWidth(Alignment.End),
             checked = roundUp,
             onCheckedChange = onRoundUpChanged,
-        )
+            colors = SwitchDefaults.colors(
+                uncheckedThumbColor = Color.DarkGray
+        ))
     }
 }
 
@@ -132,9 +150,24 @@ fun EditNumberField(@StringRes label:Int,keyboardOptions: KeyboardOptions, value
 
 }
 
-private fun calcularGorjeta(valor: Double, percentagemGorjeta: Double):String{
-    val gorjeta = percentagemGorjeta/100*valor
-   return NumberFormat.getCurrencyInstance().format(gorjeta)
+private fun calcularGorjeta(valor: Double, percentagemGorjeta: Double, roundUp:Boolean):String{
+
+    var gorjeta = percentagemGorjeta/100*valor
+
+    if(roundUp){ // Se o switch estiver ligado, ou seja, se quero arredondar a conta
+        gorjeta = kotlin.math.ceil(gorjeta)
+        return NumberFormat.getCurrencyInstance().format(gorjeta)
+    }else{ // Se o switch estiver desligado, nao quero arredondar
+        return NumberFormat.getCurrencyInstance().format(gorjeta)
+    }
+
+    /* // Versão 2 - menos código mas "mais" lógica
+    if(roundUp) { // Se o switch estiver ligado, ou seja, se quero arredondar a conta
+        gorjeta = kotlin.math.ceil(gorjeta)
+    }
+        return NumberFormat.getCurrencyInstance().format(gorjeta)
+    */
+
 }
 
 @Preview (showBackground = true)
